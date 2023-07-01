@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="sanitySuiteMrrexProdMobile">
+    <test name="sanityTestMrrexProdMobile" >
+        <parameter name="url" value="https://www.mrrex.com/"></parameter>
+        <parameter name="baseUrl" value="mrrex.com/"></parameter>
+        <parameter name="login" value="federico326@gmail.com"></parameter>
+        <parameter name="password" value="BeDug_44"></parameter>
+        <classes>
+            <class name="GameSearchTests"/>
+            <class name="LogoClickTests" />
+            <class name="FooterIconsTests"/>
+            <class name="InnerPagesTests"/>
+            <class name="CategoriesTests"/>
+        </classes>
+    </test>
+</suite>
